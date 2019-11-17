@@ -9,7 +9,8 @@ from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
 from sqlalchemy import create_engine
 
-db_connect = create_engine('sqlite:///C:\\Users\\Balta\\Desktop\\PythonTest\\API-PYTHON-HEROKU\\chinook.db')
+#db_connect = create_engine('sqlite:///C:\\Users\\Balta\\Desktop\\PythonTest\\API-PYTHON-HEROKU\\chinook.db')
+db_connect = create_engine('sqlite:///API-PYTHON-HEROKU\\chinook.db')
 
 app = Flask(__name__)
 
